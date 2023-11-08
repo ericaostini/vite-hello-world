@@ -2,9 +2,9 @@
     <header>
         <h1>{{ titolo }}</h1>
     </header>
-    <main>
-        
-    </main>
+    <div>
+        <AppHero />
+    </div>
 </template>
 
 <script>
@@ -26,5 +26,8 @@
     h1{
         text-align: center;
         margin-top: 10px;
+    }
+    main{
+        height: 500px;
     }
 </style>
