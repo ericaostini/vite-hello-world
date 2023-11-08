@@ -1,7 +1,9 @@
 <template>
     <main>
-        <h3>{{ hero }}</h3>
     </main>
+    <div>
+        <h3>{{ hero }}</h3>
+    </div>
 </template>
 
 <script>
@@ -18,12 +20,17 @@
 <style lang="css">
     main{
         background-image: url('/images/bg-img.jpg');
-        background-size: contain;
+        width: 100vw;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
-        background-position: top center;
-        position: relative;
+        filter: blur(3px);
     }
     h3{
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
         font-size: 100px;
         position: absolute;
         top: 50%;
