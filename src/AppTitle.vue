@@ -23,6 +23,10 @@
 <style lang="css">
     h1{
         text-align: center;
-        margin: 20px;
+        color: #009BDA;
+    }
+    header{
+        padding: 20px;
+        background-color: black;
     }
 </style>

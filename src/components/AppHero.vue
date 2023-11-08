@@ -1,9 +1,9 @@
 <template>
     <main>
     </main>
-    <div>
-        <h3>{{ hero }}</h3>
-    </div>
+    <p>
+        {{ hero }}
+    </p>
 </template>
 
 <script>
@@ -27,11 +27,12 @@
         background-repeat: no-repeat;
         filter: blur(3px);
     }
-    h3{
-        background-color: white;
-        padding: 10px;
+    p{
+        background-color: #E9A6AC;
+        color: #009BDA;
+        padding: 15px;
         border-radius: 10px;
-        font-size: 100px;
+        font-size: 80px;
         position: absolute;
         top: 50%;
         left: 50%;
