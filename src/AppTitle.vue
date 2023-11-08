@@ -2,13 +2,17 @@
     <header>
         <h1>{{ titolo }}</h1>
     </header>
+    <main>
+        
+    </main>
 </template>
 
 <script>
+    import AppHero from './components/AppHero.vue'
     export default {
-        nome: 'AppTitle',
+        name: 'AppTitle',
         components: {
-
+            AppHero
         },
         data() {
             return {
