@@ -18,6 +18,9 @@
     }
 </script>
 
-<style lang="scss" scoped>
-
+<style lang="css">
+    h1{
+        text-align: center;
+        margin-top: 10px;
+    }
 </style>
